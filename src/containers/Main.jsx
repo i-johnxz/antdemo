@@ -55,20 +55,6 @@ class SidebarComponent extends Component {
                 <IndexLink to='/date'>Date</IndexLink>
               </Menu.Item>
             </SubMenu>
-            <SubMenu key='sub2' title={<span><Icon type='appstore' /><span>导航二</span></span>}>
-              <Menu.Item key='5'>选项5</Menu.Item>
-              <Menu.Item key='6'>选项6</Menu.Item>
-              <SubMenu key='sub3' title='三级导航'>
-                <Menu.Item key='7'>选项7</Menu.Item>
-                <Menu.Item key='8'>选项8</Menu.Item>
-              </SubMenu>
-            </SubMenu>
-            <SubMenu key='sub4' title={<span><Icon type='setting' /><span>导航三</span></span>}>
-              <Menu.Item key='9'>选项9</Menu.Item>
-              <Menu.Item key='10'>选项10</Menu.Item>
-              <Menu.Item key='11'>选项11</Menu.Item>
-              <Menu.Item key='12'>选项12</Menu.Item>
-            </SubMenu>
           </Menu>
         </aside>
         <div className='ant-layout-main'>
@@ -81,7 +67,7 @@ class SidebarComponent extends Component {
             </div>
           </div>
           <div className='ant-layout-footer'>
-           Ant Design 版权所有 © 2016 EcoEdu RD
+           Ant Design 版权所有 © 2016 johnxiong
           </div>
         </div>
       </div>
