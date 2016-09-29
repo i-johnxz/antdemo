@@ -6,7 +6,7 @@ class Posts extends Component {
     return (
       <ul>
         {posts.map((post, i) =>
-          <li key={i}>{post.title}</li> 
+          <li key={i}>{post.title}</li>
         )}
       </ul>
     )

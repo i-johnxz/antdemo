@@ -1,6 +1,5 @@
 import React, { Component, PropTypes } from 'react'
 
-
 class Picker extends Component {
   constructor(props) {
     super(props)
@@ -15,7 +14,7 @@ class Picker extends Component {
     return (
       <span>
         <h1>{value}</h1>
-        <select onChange={this.handleChange} value={options}>
+        <select onChange={this.handleChange} value={value}>
           {options.map(option =>
             <option value={option} key={option}>
               {option}

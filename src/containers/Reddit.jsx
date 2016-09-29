@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-import { selectReddit, fetchPostsIfNeeded, invalidateReddit } from '../actions'
+import { selectReddit, fetchPostsIfNeeded, invalidateReddit } from '../actions/reddit'
 import Picker from '../components/Reddit/Picker'
 import Posts from '../components/Reddit/Posts'
 
@@ -40,7 +40,7 @@ class App extends Component {
     const isEmpty = posts.length === 0
     return (
       <div>
-        <Picker value={selectedReddit} onChange={this.handleChange} options={[ 'reactjs', 'frontend' ]} />
+        <Picker value={selectedReddit} onChange={this.handleChange} options={[ 'reactjs', 'angularjs', 'vuejs' ]} />
         <p>
           {lastUpdated &&
             <span>
