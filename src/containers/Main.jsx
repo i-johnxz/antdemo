@@ -49,7 +49,7 @@ class SidebarComponent extends Component {
                 <IndexLink to='/'>Weclome</IndexLink>
               </Menu.Item>
               <Menu.Item key='2'>
-                <IndexLink to='/last'>Last</IndexLink>
+                <IndexLink to='/reddit'>Reddit</IndexLink>
               </Menu.Item>
               <Menu.Item key='3'>
                 <IndexLink to='/date'>Date</IndexLink>
