@@ -1,3 +1,7 @@
 # antdemo
 react react-router redux ant test demo
-git 常用命令地址:http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
+这是一个react、react-router、redux、ant的小demo
+运行步骤
+1、npm i 
+2、npm run dev
+3、open brower localhost:8080

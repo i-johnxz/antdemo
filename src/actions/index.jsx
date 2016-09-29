@@ -25,7 +25,7 @@ export const receivePosts = (reddit, json) => ({
   posts: json.data.children.map(child => child.data),
   receivedAt: Date.now()
 })
- 
+
 const fetchPosts = reddit => dispatch => {
   dispatch(requestPosts(reddit))
   return fetch(`https://www.reddit.com/r/$(reddit).json`)
